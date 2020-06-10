@@ -1,40 +1,38 @@
-# Отчет по лабораторной работе №1
-
-В отчете предоставлены решения заданий из [SuzenEscape](https://github.com/bykvaadm/SuzenEscape).
-
-В папке [screepts](https://github.com/nebantepermanentnopls/OSLabReports/tree/master/lab1/scripts) содержатся скрипты для решения заданий.
-
+# Лабораторная работа №1
+1. Скриншоты (https://github.com/MrXariz/lab/tree/master/lab1/screenshots)
+2. Скрипты (https://github.com/MrXariz/lab/tree/master/lab1/scripts)
 ## Suzen1
 
-![suzen1](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen1.jpg)
+![suzen1](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/1.jpg)
  
-Использовали команду ls для просмотра содержимого каталога, увидели txt файл, открыли с помощью cat.
+Команда **ls** для просмотра содержимого каталога\
+командой **cat** открываем файл формата .txt.
  
 ## Suzen2
  
-![suzen2.1](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen2.1.jpg)
+![suzen2.1](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/2.jpg)
  
-С помощью cat склеиваем все файлы начинающиеся с одного символа, например: cat =*, cat '('*, cat :*. 
+Командой **cat** соединяем файлы, начинающиеся с одного символа.
 
-![suzen2.2](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen2.2.jpg)
+![suzen2.2](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/3.jpg)
 
-Пароль был в одном из файлов, которые начинаются с двоеточия (“ : ”).
+Ключ в одном из файлов, которые начинаются с двоеточия.
 
 ## Suzen3
 
-![suzen3](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen3.jpg)
+![suzen3](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/4.jpg)
 
-Мы не имеем утилит cat, less и тд, поэтому читаем файл используя bash:
- *С помощью конструкции “while read line” мы читаем и сохраняем в line строки файла пока они не закончатся;
- *Конструкция do echo $line выводит строку, которая храниться в line($ нужен для указания на переменную line);
- *Done показывает конец цикла;
- *С помощью “< ‘-diary.txt-‘ ” мы направляем данные из дневника на ввод скрипту.
+Читаем файл с помощью **bash**:
+ При помощи конструкции **while read line** читаем и сохраняем в line строки файла пока они не закончатся\
+ Конструкция **do echo $line** выводит строку, которая храниться в line\
+ **Done** показывает конец цикла\
+ При помощи **(< ‘-diary.txt-‘ )** мы направляем данные из дневника на ввод скрипту.
 
 ## Suzen14
 
-![suzen14](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen14.jpg)
+![suzen14](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/5.jpg)
 
-С помощью утилиты ls смотрим названия каталогов, которые являются частями ключа.
+При помощи команды **ls** чекаем названия каталогов и находим ключ.
 
 ## Suzen15
 
