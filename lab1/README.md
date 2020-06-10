@@ -54,35 +54,41 @@
 
 ## Suzen17
 
-![suzen17](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen17.jpg)
+![suzen17](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/8.jpg)
 
-С помощью флага –a утилиты ls просматриваем скрытые файлы.
+С помощью флага **–a** утилиты **ls** чекаем скрытые файлы.
 
 ## Suzen18
 
-![suzen18](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen18.jpg)
+![suzen18](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/9.jpg)
 
-Пользуемся утилитой man для прочтения мануала  diary.
+Пользуемся утилитой **man** для прочтения мануала **diary**.
 
 ## Suzen19
 
-![suzen19](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen19.jpg)
+![suzen19](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/10.jpg)
 
-Создаем директории через mkdir, ключ -p создает каталоги, которые отсутсвуют. Sleep и && используются для имитации скрипта, чтобы все выполнилось по порядку(как в скрипте) и ключ вывелся(может не вывестись, так как внешняя проверка)
+**mkdir** - создаем директории\
+ключ **-p** создает каталоги, которые отсутсвуют.\
+**Sleep** и **&&** используются для имитации скрипта, чтобы все выполнилось по порядку и ключ вывелся.
 
 ## Suzen20
 
-![suzen20](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen20.jpg)
+![suzen20](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/11.jpg)
 
-Переходи в john  и удаляем все файлы с помощью rm. Флаг –r требуется для удаления каталогов, при удалении обычных файлов он не на что не влияет.
+Переходим в **john**\
+удаляем все файлы с помощью **rm**\
+Флаг **–r** требуется для удаления каталогов.
 
 ## Suzen21
 
-![suzen21](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen21.jpg)
+![suzen21](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/12.jpg)
 
-Используя утилиту rm с выражениями для удаления файлов. Утилита grep с ключом -o  используется для поиска подстроки в выводe ls(там много файлов, сложо искать), которая удовлетворяет регулярному выражению '[0-9a-zA-Z]\{28\}':
- *[0-9a-zA-Z]- подстрока состоит из только из букв и цифпр;
- *\{28\}- длинна подстроки равна 28(бекслэши используются для экранировки).
+Юзаем **rm** с выражениями для удаления файлов.\
+Утилита **grep** с ключом **-o**  используется для поиска подстроки в выводe ls,\
+которая удовлетворяет регулярному выражению '[0-9a-zA-Z]\{28\}':[0-9a-zA-Z]-\
+подстрока состоит из только из букв и цифр\
+{28}- длина подстроки равна 28.
 
 ## Suzen22
 
