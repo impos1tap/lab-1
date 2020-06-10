@@ -1,6 +1,6 @@
 # Лабораторная работа №1
-1. Скриншоты (https://github.com/MrXariz/lab/tree/master/lab1/screenshots)
-2. Скрипты (https://github.com/MrXariz/lab/tree/master/lab1/scripts)
+1. [Скриншоты](https://github.com/MrXariz/lab/tree/master/lab1/screenshots)
+2. [Скрипты](https://github.com/MrXariz/lab/tree/master/lab1/scripts)
 ## Suzen1
 
 ![suzen1](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/1.jpg)
