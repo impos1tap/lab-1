@@ -92,71 +92,79 @@
 
 ## Suzen22
 
-![suzen22](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen22.jpg)
+![suzen22](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/13.jpg)
 
-Пишем скрип для создания файлов,
-“for i in `seq 1 999`” - конструкция, которая нужна для построения цикла от 1 до 999.
-Файлы создаются с помощью утилиты touch. Комбинация ls и grep используется для быстрого, не ручного поиска.
+Пишем скрип для создания файлов,\
+**for i in `seq 1 999`** - построение цикла от 1 до 999.\
+Файлы создаются с помощью утилиты **touch**.\
+Комбинация ls и grep используется для быстрого, не ручного поиска.
 
 ## Suzen23
 
-![suzen23](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen23.jpg)
+![suzen23](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/14.jpg)
 
-Сначала заходим в каталог destination и с помощью bash и утилиты mv переименовываем все файлы, которые находятся в данной директории.
-Потом заходим в source и перемещаем из данной директории в директорию destination, используя mv.
+Заходим в каталог **destination**\
+при помощи **bash** и утилиты **mv** переименовываем все файлы, которые находятся в данной директории.\
+заходим в **source** и перемещаем из данной директории в директорию **destination**, используя **mv**.
 
 ## Suzen24
 
-![suzen24](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen24.jpg)
+![suzen24](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/15.jpg)
 
-Создаем директорию Music в suzen.
-Переходим в Desktop/music и копируем все содержимое утилитой cp.
-Флаг –r нужен для копирования подкаталогов и файлов внутри данного каталога.
+Создаем директорию **Music** в **suzen**.\
+Переходим в **Desktop/Music** и копируем все содержимое утилитой **cp**.\
+Флаг **–r** нужен для копирования подкаталогов и файлов, внутри данного каталога.
 
 ## Suzen25
 
-![suzen25](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen25.jpg)
+![suzen25](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/16.jpg)
 
-Через ls смотрим содержимое, через cat открываем.
+Через **ls** смотрим содержимое\
+через **cat** открываем.
 
 ## Suzen26
 
-![suzen26.1](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen26.1.jpg)
+![suzen26.1](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/17.jpg)
 
-![suzen26.2](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen26.2.jpg)
+![suzen26.2](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/18.jpg)
 
-![suzen26.3](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen26.3.jpg)
+![suzen26.3](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/19.jpg)
 
-Открываем файл через less, видим FIRST_FLAG_PART и пользуемся поиском(/…).
+Открываем файл через **less**\
+видим **FIRST_FLAG_PART**\
+пользуемся поиском **(/…)**.
 
 ## Suzen27
 
-![suzen27](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen27.jpg)
+![suzen27](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/20.jpg)
 
-Запускаем утилиту tail с флагом -f для построчного чтения файла. Направляем вывод в grep для вывода ТОЛЬКО ключа.
+Запускаем утилиту **tail** флаг **-f** для чтения файла.\
+Направляем вывод в **grep** для вывода только ключа.
 
 ## Suzen28
 
-![suzen28.1](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen28.1.jpg)
+![suzen28.1](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/21.jpg)
 
-Ищем что-то похожее на название начального файла через утилиту find, далее открываем и копируем все, кроме последней строчки, так как ее мы вставим другим способом из-за отсутствия символа переноса строки в копируемом файле.
+Ищем похожее на название начального файла через утилиту **find**\
+открываем и копируем все, кроме последней строчки.
 
-![suzen28.2](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen28.2.jpg)
+![suzen28.2](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/22.jpg)
 
-С помощью cat мы создаём файл, перенаправляя вывод в diary, пока не введем EOF.
+При помощи **cat** создаём файл, перенаправляя вывод в **diary**, пока не введем **EOF**.
 
-![suzen28.3](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen28.3.jpg)
+![suzen28.3](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/23.jpg)
 
-Последние 2 строчки вставляем через echo с флагом –e(позволяет использовать спец символы), чтобы исключить добавление “\n”.
+Две последние строчки вставляем через **echo** с флагом **–e**, чтобы исключить добавление **\n**.
 
-![suzen28.4](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen28.4.jpg)
+![suzen28.4](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/24.jpg)
 
 ## Suzen29
 
-![suzen29](https://github.com/nebantepermanentnopls/OSLabReports/blob/master/lab1/screenshots/suzen29.jpg)
+![suzen29](https://github.com/MrXariz/lab/blob/master/lab1/screenshots/25.jpg)
 
-Пользуемся командой echo для просмотра файлов в каталоге.
-Находим скрытый файл и открываем его через echo, видим какой-то кривой вывод, среди которого можно увидеть флаг.
+**echo** для просмотра файлов в каталоге.\
+Findим скрытый файл и открываем его через **echo**,\
+видим прикол и находим флаг.
 
 
 
